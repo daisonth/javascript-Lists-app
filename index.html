@@ -1,11 +1,26 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <link type="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
     <title>List app</title>
   </head>
   <body>
-    <div class="menu"></div>
-    <div class="main"></div>
-    <div class="list"></div>
+    <main>
+      <div class="menu"></div>
+      <div class="main">
+        <h1>List</h1>
+        <ol>
+          <div>
+            <button class="btn ol">Orderd List</button>
+            <button class="btn ul">UnOrderd List</button>
+          </div>
+          <div class="controls">
+            <input type="text" class="inp" placeholder="add item"><button class="add">add</button>
+          </div>
+        </ol>
+      </div>
+      <div class="list"></div>
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
