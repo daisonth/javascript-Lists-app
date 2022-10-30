@@ -7,8 +7,7 @@
   <body>
     <nav class="navbar">
       <label for="check" class="bar">
-        <input id="check" type="checkbox" checked />
-
+        <input id="check" type="checkbox" />
         <span class="top"></span>
         <span class="middle"></span>
         <span class="bottom"></span>
@@ -27,21 +26,22 @@
         </svg>
       </button>
     </nav>
-    <nav class="navlist">
-      <ul>
-        <li class="navlist-item">Shoping List</li>
-        <li class="navlist-item">Todo List</li>
-        <li class="navlist-item">Some other list</li>
-      </ul>
-    </nav>
     <main>
-      <ol>
+      <div class="card">
         <div class="input-form">
           <input type="text" placeholder="add item" />
           <button class="btn btn-add">add</button>
         </div>
-      </ol>
+        <ol></ol>
+      </div>
     </main>
+    <nav class="navlistbar">
+      <div class="newlist">
+        <input type="text" placeholder="list name" />
+        <button type="submit">+</button>
+      </div>
+      <ul class="navlist"></ul>
+    </nav>
     <script src="js/script.js"></script>
   </body>
 </html>
